@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    background-color: #29cccc;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main Heading */
+h1 {
+    color: #263238;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    margin-bottom: 25px;
+
+    text-align: center;
+}
+
+
+/* Label */
+label {
+    color: #777;
+
+    font-size: 17px;
+}
+
+
+/* Text Box */
+input[type="text"] {
+    width: 240px;
+
+    height: 45px;
+
+    padding: 0 12px;
+
+    box-sizing: border-box;
+
+    font-size: 17px;
+
+    text-align: center;
+
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+
+    outline: none;
+}
+
+
+input[type="text"]:focus {
+    border-color: #4285f4;
+}
+
+
+/* Guess Button */
+input[type="button"] {
+    height: 45px;
+
+    padding: 0 18px;
+
+    margin-left: 5px;
+
+    font-size: 16px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    background-color: #f8f8f8;
+
+    cursor: pointer;
+}
+
+
+input[type="button"]:hover {
+    background-color: #e5e5e5;
+}
